@@ -11,6 +11,7 @@
 		E356260B258C96E4000B19FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E356260A258C96E4000B19FF /* ContentView.swift */; };
 		E356260D258C96E5000B19FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E356260C258C96E5000B19FF /* Assets.xcassets */; };
 		E3562610258C96E5000B19FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E356260F258C96E5000B19FF /* Preview Assets.xcassets */; };
+		E3562619258C9739000B19FF /* TCPConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3562618258C9739000B19FF /* TCPConnect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		E356260C258C96E5000B19FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E356260F258C96E5000B19FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E3562611258C96E5000B19FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3562618258C9739000B19FF /* TCPConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPConnect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				E3562608258C96E4000B19FF /* TCP_SocketApp.swift */,
 				E356260A258C96E4000B19FF /* ContentView.swift */,
+				E3562618258C9739000B19FF /* TCPConnect.swift */,
 				E356260C258C96E5000B19FF /* Assets.xcassets */,
 				E3562611258C96E5000B19FF /* Info.plist */,
 				E356260E258C96E5000B19FF /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3562619258C9739000B19FF /* TCPConnect.swift in Sources */,
 				E356260B258C96E4000B19FF /* ContentView.swift in Sources */,
 				E3562609258C96E4000B19FF /* TCP_SocketApp.swift in Sources */,
 			);
@@ -269,7 +273,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TCP-Socket/Preview Content\"";
-				DEVELOPMENT_TEAM = 7S5D3CNXL5;
+				DEVELOPMENT_TEAM = V2JY6WCGLS;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "TCP-Socket/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -291,7 +295,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"TCP-Socket/Preview Content\"";
-				DEVELOPMENT_TEAM = 7S5D3CNXL5;
+				DEVELOPMENT_TEAM = V2JY6WCGLS;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "TCP-Socket/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
